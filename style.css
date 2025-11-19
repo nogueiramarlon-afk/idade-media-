@@ -1,6 +1,7 @@
 body{
     color:rgb(123, 89, 154);
     background: rgb(13, 82, 75);
+    margin-bottom: 100px;
 }
 
 header{ 
@@ -19,8 +20,12 @@ header{
 .chamada-texto{ 
 margin-right: 5%;
 }
-img{ 
-    height: 200px
+
+h1{ 
+    font-size: 40px;
+}
+p{ 
+    font-size: 20px;
 }
 .categoria videos{ 
     display:  flex;
@@ -30,4 +35,15 @@ img{
 .categoria{ 
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{ 
+    opacity: 0.5;
+    height: 200px;
+}.categora-videos img:hover{
+    opacity: 1.0px;
+    border: 1px solid blue;
+}
+.categoria h2{ 
+    color:gold;
 }
